@@ -124,7 +124,7 @@ img::-moz-selection {
 }
 
 footer {
-  padding: 25px 0;
+  padding: 4em 2em 2em 2em;
   text-align: center;
   background-color: #252831;
   color: #E4E4E4;
@@ -288,6 +288,7 @@ footer span.copyright {
 
 .intro__header--white {
   font-size: 2.85em;
+  color: #FFF;
 }
 @media (min-width: 981px) and (max-width: 1280px) {
   .intro__header--white {
@@ -424,7 +425,7 @@ footer span.copyright {
   }
 }
 @media (min-width: 737px) and (max-width: 980px) {
-  .testimonial__section--blue {
+  .section__testimonial--blue {
     padding: 12em 6em;
   }
   .testimonial__body {
@@ -432,7 +433,7 @@ footer span.copyright {
   }
 }
 @media (min-width: 481px) and (max-width: 736px) {
-  .testimonial__section--blue {
+  .section__testimonial--blue {
     padding: 9em 3em;
   }
   .testimonial__body {
@@ -440,8 +441,8 @@ footer span.copyright {
   }
 }
 @media (min-width: 0px) and (max-width: 480px) {
-  .testimonial__section--blue {
-    padding: 8em 3em;
+  .section__testimonial--blue {
+    padding: 8em 2em;
   }
   .testimonial__body {
     font-size: 1.35em;
@@ -449,37 +450,36 @@ footer span.copyright {
 }
 
 .section__signup--light {
-  /* background-image: url('../img/testimonial-quote-large.svg');
-  background-position: left center;
-  background-repeat: no-repeat; */
-  background: #FAFAFA;
-  background-size: 100%;
-  padding:14em 8em;
+  background-image: url('../img/signup-bg.jpg');
+  background-position: top center;
+  background-color: #FAFAFA;
+  background-size: cover;
+  padding:6em 9em;
   text-align: center;
 }
 @media (min-width: 981px) and (max-width: 1280px) {
   .section__signup--light {
-    padding:12em 8em;
+    padding:6em 7em;
   }
 }
 @media (min-width: 737px) and (max-width: 980px) {
   .section__signup--light {
-    padding:8em 0 6em 0;
+    padding:6em 4em;
   }
 }
 @media (min-width: 481px) and (max-width: 736px) {
   .section__signup--light {
-    padding:8em 0 6em 0;
+    padding:6em 0em;
   }
 }
 @media (min-width: 421px) and (max-width: 480px) {
   .section__signup--light {
-    padding:8em 0 6em 0;
+    padding:6em 0em;
   }
 }
 @media (min-width: 0px) and (max-width: 420px) {
   .section__signup--light {
-    padding:8em 0 4em 0;
+    padding:6em 0em;
   }
 }
 
@@ -513,4 +513,8 @@ footer span.copyright {
 
 .white {
   color: #FFF;
+}
+
+input.shadow {
+  box-shadow: 0 16px 64px 0 rgba(0,0,0,0.16);
 }
