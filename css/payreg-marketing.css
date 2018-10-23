@@ -349,9 +349,9 @@ footer span.copyright {
 .section__gradient--laptop {
   background: rgb(207,69,32);
   background-image: url('../img/feature-laptop.png'), linear-gradient(0deg, rgba(207,69,32,1) 0%, rgba(0,19,27,1) 100%);
-  background-position: right -10px bottom -2em, center top;
+  background-position: right -150px bottom -2em, center top;
   background-repeat: no-repeat;
-  background-size: 50%, cover;
+  background-size: 67%, cover;
   padding: 1em 0 3em 0;
 }
 .col__placeholder--imageheight {
@@ -359,15 +359,15 @@ footer span.copyright {
 }
 @media (min-width: 981px) and (max-width: 1280px) {
   .section__gradient--laptop {
-    background-position: right -10px bottom -1em, center top;
-    background-size: 60%, cover;
+    background-position: right -150px bottom 0, center top;
+    background-size: 73%, cover;
   }
 }
 @media (min-width: 737px) and (max-width: 980px) {
   .section__gradient--laptop {
     background-image: url('../img/feature-laptop.png'), linear-gradient(0deg, rgba(207,69,32,1) 0%, rgba(0,19,27,1) 100%);
-    background-position: right -160px bottom -1em, center top;
-    background-size: 74%, cover;
+    background-position: right -280px bottom 0, center top;
+    background-size: 96%, cover;
   }
 }
 @media (min-width: 481px) and (max-width: 736px) {
@@ -454,12 +454,17 @@ footer span.copyright {
   background-position: top center;
   background-color: #FAFAFA;
   background-size: cover;
-  padding:6em 20em;
+  padding:6em 14em;
   text-align: center;
 }
-@media (min-width: 981px) and (max-width: 1280px) {
+@media (min-width: 1131px) and (max-width: 1280px) {
   .section__signup--light {
-    padding:6em 7em;
+    padding:6em 14em;
+  }
+}
+@media (min-width: 981px) and (max-width: 1130px) {
+  .section__signup--light {
+    padding:6em 8em;
   }
 }
 @media (min-width: 737px) and (max-width: 980px) {
